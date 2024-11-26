@@ -1,0 +1,40 @@
+{
+  "Produtos": [
+    {
+      "nome": "Stormtrooper",
+      "preco": "60",
+      "imagem": "img/unsplash_6FDXGY9J6y4.svg",
+      "id": "15ed"
+    },
+    {
+      "nome": "Game Boy Classic",
+      "preco": "60",
+      "imagem": "img/image2.svg",
+      "id": "7876"
+    },
+    {
+      "nome": "Stormtrooper",
+      "preco": "60",
+      "imagem": "img/unsplash_6FDXGY9J6y4.svg",
+      "id": "4cdb"
+    },
+    {
+      "id": "6698",
+      "nome": "Mario",
+      "preco": "135",
+      "imagem": "https://ogimg.infoglobo.com.br/in/23001849-c2f-667/FT1086A/INFOCHPDPICT000041975439.jpg"
+    },
+    {
+      "id": "5e5c",
+      "nome": "Minecraft",
+      "preco": "68",
+      "imagem": "https://img.odcdn.com.br/wp-content/uploads/2022/12/minecraft-1.jpg"
+    },
+    {
+      "id": "34ac",
+      "nome": "Fifa 2024",
+      "preco": "356",
+      "imagem": "https://s2-ge.glbimg.com/GkaeBFLAOEpD9IdbjnnXz2pdmb8=/0x0:600x900/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2023/Z/V/BA0551QUqnAA6RguQ97w/ea-sports-fc-24-capa.png"
+    }
+  ]
+}

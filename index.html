@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AluraGeek</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="img/logo.png" alt="logo">
+        <h1 class="cabecalho-titulo">AluraGeek</h1>
+    </header>
+
+    <main>
+        <section class="produtos">
+            <h2 class="titulo-produtos">MEUS PRODUTOS:</h2>
+            <ul class="container-produtos" data-lista>
+               
+            </ul>
+        </section>
+        <section class="formulario">
+            <h2 class="titulo-formulario">ADICIONAR<br>PRODUTO:</h2>
+            <form class="formulario" onclick="limparFormulario()" data-formulario>
+                <input class="text" type="text" placeholder="nome..." data-nome>
+                <input class="number" type="number" placeholder="valor..." data-preco>
+                <input class="image" type="text" placeholder="imagem..." data-imagem>
+                <div class="btn-form">
+                    <button type="submit" >Guardar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <img src="img/logo.png" alt="">
+        <p>Desenvolvido por <strong>Cristiano Silva</strong></p>
+        <p>ALURA LATAM 2024</p>
+    </footer>
+    
+    <script src="./js/mostrarProdutos.js" type="module" ></script>
+    <script src="./js/criarProduto.js" type="module" ></script>
+</body>
+</html>
