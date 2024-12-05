@@ -9,9 +9,9 @@ function formatarPreco(valor) {
 function constroiCard(imagem, nome, preco, id) {
   const item = document.createElement('li');
   item.className = "produtos-cards";
-  item.dataset.id = id; // Add product ID as a data attribute
+  item.dataset.id = id; // Add product ID a data attribute
   item.innerHTML = `<img class="imagem-produtos" src=${imagem}>
-                         <p class="nome-produto">${nome}</p>
+                         <p class="nome-produto">${nome.toUpperCase()}</p>
                          <div class="preco-delete">
                            <p class="preco-produto">${formatarPreco(preco)}</p>
                            <img class="delete-btn" src="img/delet.png" alt="Delete Product">
@@ -31,17 +31,17 @@ async function listaProdutos() {
   produtos.addEventListener('click', async (event) => {
     if (event.target.classList.contains('delete-btn')) {
       const card = event.target.closest('.produtos-cards');
-      const productId = card.dataset.id; // Use data attribute to get ID
+      const productId = card.dataset.id; //Use o atributo data para obter o ID
 
-      // Confirmation before deletion (optional)
+      // Confirmação antes da exclusão (opcional)
       if (confirm(`Tem certeza que deseja excluir o produto "${card.querySelector('.nome-produto').textContent}"?`)) {
         try {
-          await conectaApi.deletaProduto(productId); // Call the delete API function
+          await conectaApi.deletaProduto(productId); // Chame a função de exclusão da API
 
-          // Remove from interface only after successful deletion
+          // Remover da interface somente após exclusão bem-sucedida
           card.remove();
 
-          // Update in-memory array if necessary (consider real-time updates)
+          // Atualize a matriz na memória, se necessário (considere atualizações em tempo real)
           const listaApiIndex = listaApi.findIndex(produto => produto.id === productId);
           if (listaApiIndex !== -1) {
             listaApi.splice(listaApiIndex, 1);

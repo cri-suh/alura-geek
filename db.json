@@ -35,6 +35,24 @@
       "nome": "Fifa 2024",
       "preco": "356",
       "imagem": "https://s2-ge.glbimg.com/GkaeBFLAOEpD9IdbjnnXz2pdmb8=/0x0:600x900/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2023/Z/V/BA0551QUqnAA6RguQ97w/ea-sports-fc-24-capa.png"
+    },
+    {
+      "id": "3568",
+      "nome": "Play 5",
+      "preco": "3950",
+      "imagem": "https://www.oficinadanet.com.br/imagens/post/56729/sony-lanca-playstation-5-pro.jpg"
+    },
+    {
+      "id": "7cd4",
+      "nome": "Cadeira DXRacer ",
+      "preco": "813.89",
+      "imagem": "https://images.tcdn.com.br/img/img_prod/374123/cadeira_gaming_preta_vermelha_oh_gb001_nr_dxracer_33086_1_c62ea16e0ce8d7b77c6246f174d0a8b7.png"
+    },
+    {
+      "id": "764c",
+      "nome": "PC Intel i5",
+      "preco": "2599.99",
+      "imagem": "https://images.tcdn.com.br/img/img_prod/673889/computador_completo_intel_i5_16gb_ram_ssd_480gb_monitor_19_polegadas_3765_1_afaba818a3329d541ecf5e10b57a083d.png"
     }
   ]
 }
